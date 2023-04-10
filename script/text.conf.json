@@ -1,0 +1,41 @@
+{
+    "s1": {
+        "hover": "By pressing this button, you can set the timer for the oven which will initiate the cooking process for the designated time duration",
+        "click": "The oven has been switched to timer mode, and it will automatically cook for four minutes and thirty seconds"
+    },
+    "s2": {
+        "hover": "Pressing this button will add one minute to the current timer duration.",
+        "click": "Increasing the timer by one minute, the cooking time is"
+    },
+    "s3": {
+        "hover": "this button will decrease the time by one minutes",
+        "click": "Decreasing the timer by one minute, the cooking time is"
+    },
+    "s4": {
+        "hover": "By pressing this button, the oven door will open.",
+        "click": "Opening the oven door"
+    },
+    "s5": {
+        "hover": "This button will turn on the colling fan",
+        "click": "Turning on the cooling fan."
+    },
+    "s6": {
+        "hover": "Pressing this button will display the status and information of the oven.",
+        "click": ""
+    },
+    "d_time": {
+        "click": ""
+    },
+    "d_primary": {
+        "hover": "",
+        "click": ""
+    },
+    "left_vol": {
+        "hover": "Pressing this button will decrease the temperature by 1 degree celcius",
+        "click": "Decreasing the temperature by 1 degree celcius"
+    },
+    "right_vol": {
+            "hover": "Pressing this button will increase the temperature by 1 degree celcius",
+            "click": "Increasin the temperature by 1 degree celcius"
+    }
+}
