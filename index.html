@@ -1,68 +1,111 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="./style/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Document</title>
 </head>
-
 <body>
-    <div class="main-div">
-        <div class="upper">
-            <div class="main-box">
-                <div class="box1">
-                    <div class="b1-d1">
-                        <button type="button" id="s1" class="small-button">
-                            <img src="./assets/timer.png" alt="timer-img">
-                        </button>
-                    </div>
-                    <div class="b1-d2">
-                        <button type="button" id="s2" class="small-button">
-                            <img src="./assets/plus.png" alt="increase-button-img">
-                        </button>
-                    </div>
-                    <div class="b1-d3">
-                        <button type="button" id="s3" class="small-button">
-                            <img src="./assets/minus.png" alt="decrease-button-img">
-                        </button>
-                    </div>
-                </div>
-                <div class="box2">
-                    <div class="b2-d1">
-                        <input type="time" name="" id="d_time">
-                    </div>
-                    <div class="b2-d2">
-                        <input type="text" name="" id="d_primary">
-                    </div>
-                </div>
-                <div class="box3">
-                    <div class="b3-d1">
-                        <button type="button" id="s4" class="small-button">
-                            <img src="./assets/door.png" alt="cooker-door-img">
-                        </button>
-                    </div>
-                    <div class="b3-d2">
-                        <button type="button" id="s5" class="small-button">
-                            <img src="./assets/fan.png" alt="fan-img">
-                        </button>
-                    </div>
-                    <div class="b3-d3">
-                        <button type="button" id="s6" class="small-button">
-                            <img src="./assets/info.png" alt="info-img">
-                        </button>
-                    </div>
+    <div class="dashboard">
+        <header>
+            <div class="f fe">
+                <div class="icon icon-w"></div>
+                <div class="heading">
+                    <h5 class="date">1 Feb 2019</h5>
+                    <h2 class="title">Cloudy</h2>
                 </div>
             </div>
-        </div>
-        <div class="down">
-            <div class="b1-box">
-                <button type="button" id="left_vol" class="large-button"></button>
+    
+            <div class="weather f">
+                <div>
+                    <strong>26°<sup>C</sup></strong>
+                    <p>Indoor Temp.</p>
+                </div>
+                <div>
+                    <strong>48.2%</strong>
+                    <p>Outdoor Humidity</p>
+                </div>
+                <div>
+                    <strong>52.99</strong>
+                    <p>Indoor Temp.</p>
+                </div>
             </div>
-            <div class="b2-box">
-                <button type="button" id="right_vol" class="large-button"></button>
+        </header>
+        <section>
+            <!-- Category -->
+            <div class="category">
+                <ul>
+                    <li><a href="#!" class="active">Living Room</a></li>
+                    <li><a href="#!">Kitchen</a></li>
+                    <li><a href="#!">Dinning</a></li>
+                    <li><a href="#!">Weather</a></li>
+                </ul>
             </div>
-        </div>
+            <!-- Appliances -->
+            <div class="appliances">
+    
+                <div class="appliance">
+                    <input type="checkbox" name="a" id="a">
+                    <label for="a">
+                        <i class="l"></i>
+                        <strong>Lamp</strong>
+                        <span data-o="opened" data-c="closed"></span>
+                        <small></small>
+                    </label>
+                </div>
+    
+                <div class="appliance">
+                    <input type="checkbox" name="a" id="b">
+                    <label for="b">
+                        <i class="r"></i>
+                        <strong>Router</strong>
+                        <span data-o="opened" data-c="closed"></span>
+                        <small></small>
+                    </label>
+                </div>
+    
+                <div class="appliance">
+                    <input type="checkbox" name="a" id="c">
+                    <label for="c">
+                        <i class="a"></i>
+                        <strong>Air</strong>
+                        <span data-o="opened" data-c="closed"></span>
+                        <small></small>
+                    </label>
+                </div>
+    
+                <div class="appliance">
+                    <input type="checkbox" name="a" id="d">
+                    <label for="d">
+                        <i class="f"></i>
+                        <strong>Fridge</strong>
+                        <span data-o="opened" data-c="closed"></span>
+                        <small></small>
+                    </label>
+                </div>
+    
+                <div class="m-player">
+                    <h2>Shared Devices</h2>
+                    <div class="player">
+                        <div class="disc"></div>
+                        <div class="artist">
+                            <p>Rosetta Stoned</p>
+                            <small>Tool</small>
+                        </div>
+                        <div class="controls">
+                            <input type="checkbox" name="a" id="p">
+                            <label for="p">
+                                <div class="control"></div>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
     </div>
-    <script type="module" src="./script/script.js"></script>
-</body>
 
+</body>
 </html>

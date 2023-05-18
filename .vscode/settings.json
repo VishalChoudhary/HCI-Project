@@ -1,0 +1,8 @@
+{
+    "gitflow4code.releases": [
+        {
+            "name": "release/nwe-ui",
+            "base": "master"
+        }
+    ]
+}
